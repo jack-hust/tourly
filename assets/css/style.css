@@ -2,10 +2,6 @@
  * #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
 
 
 
@@ -78,6 +74,23 @@
 }
 
 
+
+/*-----------------------------------*\
+ * #chat
+\*-----------------------------------*/
+
+.chat-icon {
+   position: fixed;
+   bottom: 100px;
+   right: 20px;
+   z-index: 9999; /* Đảm bảo biểu tượng chat nằm trên các phần tử khác */
+}
+.chat-icon img {
+  width: 100px; /* Điều chỉnh kích thước biểu tượng chat tại đây */
+  height: 100px;
+  border-radius: 50%; /* Để biểu tượng chat trở thành hình tròn (tuỳ chọn) */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Thêm hiệu ứng đổ bóng (tuỳ chọn) */
+}
 
 
 
@@ -156,6 +169,10 @@ body { background: var(--white); }
 .btn-secondary { border-color: var(--white); }
 
 .btn-secondary:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+
+.btn-3 { border-color: var(--white); }
+
+.btn-3:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
 
 .h1,
 .h2,
@@ -410,6 +427,8 @@ body { background: var(--white); }
 
 
 
+
+
 /*-----------------------------------*\
  * #TOUR SEARCH
 \*-----------------------------------*/
@@ -450,7 +469,24 @@ body { background: var(--white); }
 }
 
 
+/*-----------------------------------*\
+ * #Google Maps
+\*-----------------------------------*/
 
+.google{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+iframe{
+  width: 80%;
+  height: 500px;
+  filter: invert(100%);
+}
 
 
 /*-----------------------------------*\
@@ -633,6 +669,121 @@ body { background: var(--white); }
 }
 
 .package .btn { margin-inline: auto; }
+
+
+/*-----------------------------------*\
+ * #SCHEDULE
+\*-----------------------------------*/
+
+.schedule { padding-block: var(--section-padding); }
+
+.schedule-list { margin-bottom: 40px; }
+
+.schedule-list > li:not(:last-child) { margin-bottom: 30px; }
+
+.schedule-card {
+  background: var(--cultured);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.schedule-card .card-banner { height: 250px; }
+
+.schedule-card .card-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.schedule-card .card-content { padding: 30px 20px; }
+
+.schedule-card .card-title { margin-bottom: 15px; }
+
+.schedule-card .card-text {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card-meta-list {
+  background: var(--white);
+  max-width: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.15);
+  border-radius: 50px;
+}
+
+.card-meta-item { position: relative; }
+
+.card-meta-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: -1px;
+  bottom: 4px;
+  width: 1px;
+  background: hsla(0, 0%, 0%, 0.3);
+}
+
+.meta-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-inline: 9px;
+  color: var(--black-coral);
+  font-size: var(--fs-8);
+}
+
+.meta-box > ion-icon {
+  color: var(--bright-navy-blue);
+  font-size: 13px;
+}
+
+.schedule-card .card-price {
+  background: var(--united-nations-blue);
+  color: var(--white);
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.schedule-card .card-price .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px 15px;
+  margin-bottom: 10px;
+}
+
+.schedule-card .card-price .reviews { font-size: var(--fs-5); }
+
+.schedule-card .card-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  font-size: 14px;
+}
+
+.schedule-card .card-rating ion-icon:last-child { color: hsl(0, 0%, 80%); }
+
+.schedule-card .price {
+  font-size: var(--fs-2);
+  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-800);
+  margin-bottom: 20px;
+}
+
+.schedule-card .price span {
+  font-size: var(--fs-7);
+  font-weight: initial;
+}
+
+.schedule .btn { margin-inline: auto; }
 
 
 
@@ -1237,6 +1388,8 @@ address {
   .meta-box { --fs-8: 13px; }
 
   .meta-box > ion-icon { font-size: 15px; }
+
+
 
 
 
