@@ -12,6 +12,7 @@
   -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
+
   <!-- 
     - custom css link
   -->
@@ -25,9 +26,13 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
+  <link
+    href="https://shimejis.xyz/directory/shimeji/adventure-time-beemo">
 </head>
 
+
 <body id="top">
+
 
   <!-- 
     - #HEADER
@@ -131,19 +136,25 @@
             </li>
 
             <li>
+              <a href="#schedule" class="navbar-link" data-nav-link>schedule</a>
+            </li>
+
+            <li>
               <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#google" class="navbar-link" data-nav-link>google</a>
             </li>
 
             <li>
               <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
             </li>
 
+
           </ul>
 
         </nav>
-
-        <button class="btn btn-primary">Book Now</button>
-
       </div>
     </div>
 
@@ -155,6 +166,12 @@
 
   <main>
     <article>
+
+      <div class="chat-icon">
+        <img src="./assets/images/chaticon.png" alt="Biểu tượng chat">
+      </div>
+
+
 
       <!-- 
         - #HERO
@@ -171,13 +188,20 @@
           </p>
 
           <div class="btn-group">
-            <button class="btn btn-primary">Learn more</button>
+            <button class="btn btn-secondary">fixed tour</button>
 
-            <button class="btn btn-secondary">Book now</button>
+
+            <button class="btn btn-primary">own journey</button>
+
+            <button class="btn btn-3">emergency</button>
           </div>
+
 
         </div>
       </section>
+
+
+
 
 
 
@@ -226,8 +250,6 @@
 
 
 
-
-
       <!-- 
         - #POPULAR
       -->
@@ -267,7 +289,7 @@
                   </p>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Can Wine</a>
+                    <a href="#">Rượu Cần</a>
                   </h3>
 
                   <p class="card-text">
@@ -365,9 +387,9 @@
       <section class="package" id="package">
         <div class="container">
 
-          <p class="section-subtitle">Popular Packages</p>
+          <p class="section-subtitle">Popular Packeges</p>
 
-          <h2 class="h2 section-title">Checkout Our Packages</h2>
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
 
           <p class="section-text">
             Unveil the wonders of Dak Lak - nature's allure, vibrant Gong Festival, rich culture, and unique rice wine, all in one unforgettable journey!
@@ -604,6 +626,110 @@
 
 
 
+      <!--
+        - #SCHEDULE
+      -->
+
+      <section class="schedule" id="schedule">
+        <div class="container">
+
+          <p class="section-subtitle">Yourself Schedule</p>
+
+          <h2 class="h2 section-title">Checkout Our Self-Schedule</h2>
+
+          <p class="section-text">
+            In Dak Lak, users have the liberty to plan their own travel schedules, from visiting the beautiful Lak Lake and Buon Ma Thuot City to experiencing the unique local culture and enjoying the breathtaking landscapes of the Central Highlands.
+          </p>
+
+          <ul class="schedule-list">
+
+            <li>
+              <div class="schedule-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/nhà%20dài.jpg " alt="Experience the Great Holiday in the Majestic Mountains and Forests" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Feel free to book a tour</h3>
+
+                  <p class="card-text">
+                    Please choose the tour according to your preferences
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 1/ ALL</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">DakLak</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(100 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $150 -> $2000
+                    <span>/ per person</span>
+                  </p>
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+
+            </li>
+
+
+          </ul>
+
+          <button class="btn btn-primary">View All Yourself Schedule</button>
+
+        </div>
+      </section>
+
+
+
+
 
       <!-- 
         - #GALLERY
@@ -660,7 +786,15 @@
 
 
 
+      <section class = "google" id = "google">
 
+
+      <div class="google">
+        <h2 class="h2 section-title">Google Map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d837194.1264007336!2d107.6858130913432!3d12.90440306770315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171f7daf7307157%3A0x8ef97694d9883315!2sDak%20Lak%2C%20Vietnam!5e0!3m2!1sen!2sus!4v1691414613690!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+      </section>
 
       <!-- 
         - #CTA
