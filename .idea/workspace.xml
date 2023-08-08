@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23f30056-a1ff-4208-a23d-a8906169233b" name="Changes" comment="" />
+    <list default="true" id="23f30056-a1ff-4208-a23d-a8906169233b" name="Changes" comment="Add files via upload" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +13,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;" />
         <option value="quang" />
       </list>
     </option>
@@ -36,7 +37,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/javascript/tourly",
     "node.js.detected.package.eslint": "true",
@@ -44,6 +44,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691502441378</updated>
       <workItem from="1691502443979" duration="5067000" />
+      <workItem from="1691507557090" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1691504516451</created>
@@ -75,7 +80,42 @@
       <option name="project" value="LOCAL" />
       <updated>1691507417399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update index.html">
+      <created>1691507632628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691507632628</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update index.html">
+      <created>1691507670130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691507670130</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update index.html&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;">
+      <created>1691507691627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691507691627</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update index.html&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;">
+      <created>1691507810650</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691507810650</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add files via upload">
+      <created>1691507864079</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691507864079</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,11 +124,25 @@
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add files via upload" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="&#10;ud" />
+    <MESSAGE value="Update index.html" />
+    <MESSAGE value="Update index.html&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;" />
+    <MESSAGE value="Add files via upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add files via upload" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
