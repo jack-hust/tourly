@@ -143,18 +143,19 @@ body {
 
 .flag-container {
   display: flex;
+  flex-direction: column; /* Xếp các cờ dọc */
   justify-content: flex-end; /* Căn chỉnh các cờ theo phía bên tay phải */
   padding: 10px;
   position: fixed;
-  bottom: 20px; /* Đặt từ dưới lên */
-  right: 20px;
+  bottom: 580px; /* Đặt từ dưới lên */
+  right: 5px;
   z-index: 9999;
 }
 
 .flag {
-  width: 50px; /* Kích thước nhỏ hơn của cờ */
+  width: 35px; /* Kích thước nhỏ hơn của cờ */
   height: auto;
-  margin-left: 5px; /* Khoảng cách giữa các cờ */
+  margin-left: 2px; /* Khoảng cách giữa các cờ */
 }
 
 
