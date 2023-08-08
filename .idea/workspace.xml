@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23f30056-a1ff-4208-a23d-a8906169233b" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+    <list default="true" id="23f30056-a1ff-4208-a23d-a8906169233b" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;">
+      <change afterPath="$PROJECT_DIR$/assets/images/iconchat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691502441378</updated>
       <workItem from="1691502443979" duration="5067000" />
-      <workItem from="1691507557090" duration="2139000" />
+      <workItem from="1691507557090" duration="3323000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1691504516451</created>
@@ -139,7 +141,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691508845689</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1691509750171</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691509750171</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;">
+      <created>1691509760921</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691509760921</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;">
+      <created>1691509772322</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691509772322</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +189,8 @@
     <MESSAGE value="Update index.html&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;" />
     <MESSAGE value="Add files via upload" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;Signed-off-by: jack-hust &lt;quang.hn205116@sis.hust.edu.vn&gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

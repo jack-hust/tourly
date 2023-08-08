@@ -86,9 +86,9 @@
    z-index: 9999; /* Đảm bảo biểu tượng chat nằm trên các phần tử khác */
 }
 .chat-icon img {
-  width: 100px; /* Điều chỉnh kích thước biểu tượng chat tại đây */
+  width: 150px; /* Điều chỉnh kích thước biểu tượng chat tại đây */
   height: 100px;
-  border-radius: 50%; /* Để biểu tượng chat trở thành hình tròn (tuỳ chọn) */
+  border-radius: 100%; /* Để biểu tượng chat trở thành hình tròn (tuỳ chọn) */
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Thêm hiệu ứng đổ bóng (tuỳ chọn) */
 }
 
