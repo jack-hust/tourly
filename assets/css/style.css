@@ -147,7 +147,7 @@ body {
   justify-content: flex-end; /* Căn chỉnh các cờ theo phía bên tay phải */
   padding: 10px;
   position: fixed;
-  bottom: 580px; /* Đặt từ dưới lên */
+  top: 5px; /* Đặt từ dưới lên */
   right: 5px;
   z-index: 9999;
 }
