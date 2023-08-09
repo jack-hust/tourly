@@ -263,7 +263,7 @@
       <section class="popular" id="destination">
         <div class="container">
 
-          <p class="section-subtitle">Uncover place</p>
+          <p class="section-subtitle">Original</p>
 
           <h2 class="h2 section-title">Unique Features</h2>
 
@@ -448,26 +448,54 @@
 
                 </div>
 
-                <div class="card-price">
 
-                  <div class="wrapper">
-
-                    <p class="reviews">(100 reviews)</p>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
+                <figure class="card-banner">
+                  <img alt="" id="img" loading="lazy" src="./assets/images/1.jpg">
+                  <div class="arrow-images">
+                    <img alt="Previous" class="prev-arrow" id="prevButton" src="./assets/images/p2.png">
+                    <img alt="Next" id="nextButton" src="./assets/images/p2.png">
                   </div>
+                </figure>
+                <script>
+                  function resizeArrows() {
+                    const arrowImages = document.querySelectorAll('.arrow-images img');
+                    arrowImages.forEach(image => {
+                      image.style.width = '40px'; // Điều chỉnh kích thước ở đây
+                      image.style.height = '40px'; // Điều chỉnh kích thước ở đây
+                    });
+                  }
 
-                  <p class="price">
-                    $150 -> $2000
-                    <span>/ per person</span>
-                  </p>
+                  // Gọi hàm để thu nhỏ kích thước mũi tên khi trang tải xong
+                  window.onload = resizeArrows;
+                </script>
+                <script>
+                  const images = [
+                    "./assets/images/1.jpg",
+                    "./assets/images/2.jpg",
+                    "./assets/images/3.jpeg", "./assets/images/4.jpeg", "./assets/images/5.jpeg"
+
+                    // Thêm đường dẫn của các ảnh khác vào đây
+                  ];
+
+                  const imgElement = document.getElementById("img");
+                  const prevButton = document.getElementById("prevButton");
+                  const nextButton = document.getElementById("nextButton");
+                  let currentImageIndex = 0;
+
+                  prevButton.addEventListener("click", () => {
+                    currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+                    imgElement.src = images[currentImageIndex];
+                  });
+
+                  nextButton.addEventListener("click", () => {
+                    currentImageIndex = (currentImageIndex + 1) % images.length;
+                    imgElement.src = images[currentImageIndex];
+                  });
+                </script>
+
+                <div class="card-price">
+                  <h1>--</h1>
+
                   <button class="btn btn-secondary">More Details</button>
 
                 </div>
